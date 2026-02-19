@@ -1,25 +1,20 @@
 {
   "name": "random-quote-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API для случайных цитат",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
   },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pheromoneo/random-quote-api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Pheromoneo/random-quote-api/issues"
-  },
-  "homepage": "https://github.com/Pheromoneo/random-quote-api#readme",
-  "dependencies": {
-    "axios": "^1.13.5",
-    "vercel": "^50.20.0"
+    "url": "https://github.com/yourusername/random-quote-api.git"
   }
 }
