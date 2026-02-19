@@ -1,11 +1,8 @@
 {
   "name": "random-quote-api",
   "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "node-fetch": "^3.3.2"
-  },
   "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Pheromoneo/random-quote-api/issues"
   },
-  "homepage": "https://github.com/Pheromoneo/random-quote-api#readme"
+  "homepage": "https://github.com/Pheromoneo/random-quote-api#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "vercel": "^50.20.0"
+  }
 }
